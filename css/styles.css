@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio&family=Montserrat:wght@100&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio&family=Montserrat:wght@100;800&family=Roboto:wght@700&display=swap');
+
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+
+}
+
+body {
+    background-color: #11041A;
+}
+
+header {
+    overflow: hidden;
+}
+
+video {
+    background-size: cover;
+    height: 840PX;
+    min-width: 100%;
+    /* position: absolute; */
+    width: auto;
+    z-index: -1;
+}
+
+.header-overlay {
+    margin-top: 49px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #303952;
+    z-index: 0;
+    opacity: 0.3;
+
+}
+
+.iconosNavbar-logo {
+    width: 91px;
+    height: 32px;
+}
+
+.headerContent-logo {
+
+    width: 247px;
+    height: 247px;
+}
+
+.headerContent-fecha {
+
+    width: 204px;
+    height: 157px;
+}
+
+.header {
+    z-index: 2;
+
+}
+
+.headerContent {
+    display: flex;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+}
+
+/* ESTILOS DEL MAIN */
+
+.mainContainer {
+    margin-top: 70px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.mainArticle {
+    border-radius: 30px;
+    background-color: #803DD5;
+    color: #FFFFFF;
+
+}
+
+.main-TitleImg {
+    border: #803DD5 5px solid;
+    border-radius: 30px;
+}
+
+.AreaCards {
+    margin-top: 30px;
+
+}
+
+
+.cards {
+    position: relative;
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+
+
+
+
+}
+
+.main_card {
+    border-radius: 20px;
+    background-color: #803DD5;
+    height: 206px;
+
+}
+
+.DivTikects {
+    position: relative;
+    background-color: #803DD5;
+    border-radius: 30px;
+    z-index: -1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.form1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 0.5fr;
+    grid-auto-rows: 25px;
+
+}
+
+.labelTicket {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'Monserrat', sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: left;
+
+}
+
+.pForm {
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.selectForm {
+    width: 31px;
+    height: 19px;
+    background-color: #d3baf3;
+    border-radius: 5px;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: end;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.buttonForm {
+
+    align-items: end;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 38px;
+    width: 110px;
+    background-color: #FAFF00;
+}
+
+
+.locationDir {
+    display: flex;
+    margin-right: 30px;
+}
+
+.mapa {
+    border: #803DD5 7px solid;
+    border-radius: 20px;
+    width: 230px;
+    height: 131px;
+    margin-left: 5px;
+}
+
+.LocationLetter {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 9px;
+    font-family: 'Antonio', sans-serif;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+}
+
+.footer {
+    display: block;
+    background-color: #FAFF00;
+}
+
+
+
+
+
+
+.header {
+    height: 844px;
+    width: 100%;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 49px;
+    background-color: #2E0C50A1;
+    z-index: 1;
+    padding-top: 11px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.iconosNavbar-logo {
+    width: 91px;
+    height: 32px;
+}
+
+
+.content {
+    margin: auto;
+}
+
+.header-video {
+    align-items: center;
+
+}
+
+.headerContent {
+    margin-top: 175px;
+}
+
+
+.headerContent-logo {
+    position: absolute;
+    transform: translateX(20%);
+}
+
+
+.headerContent-fecha {
+    position: absolute;
+    transform: translateX(35%);
+    margin-top: 294px;
+    width: 204px;
+    height: 157px;
+}
+
+.header-overlay {
+    height: 844px;
+}
+
+
+/* ESTILOS DEL MAIN MAX 410PX */
+
+.mainTitle {
+    position: relative;
+    letter-spacing: -1px;
+    font-family: 'Anton', sans-serif;
+    color: #FAFF00;
+    font-size: 48px;
+    z-index: 1;
+}
+
+.mainTitle2 {
+    position: relative;
+    letter-spacing: -1px;
+    font-family: 'Anton', sans-serif;
+    color: #FAFF00;
+    font-size: 48px;
+    z-index: 1;
+    margin-left: 130px;
+    margin-bottom: -32px;
+}
+
+
+.location {
+    margin-top: 40px;
+
+}
+
+.mainTitlePlace {
+    position: relative;
+    letter-spacing: -1px;
+    font-family: 'Anton', sans-serif;
+    color: #FAFF00;
+    font-size: 48px;
+    z-index: 1;
+    margin-left: 150px;
+
+}
+
+.mainTitleSponsor {
+    position: relative;
+    letter-spacing: -1px;
+    font-family: 'Anton', sans-serif;
+    color: #FAFF00;
+    font-size: 48px;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+.mainArticle {
+    position: absolute;
+    top: 12%;
+    left: 25%;
+    text-align: justify;
+    font-family: 'Antonio', sans-serif;
+    width: 224px;
+    height: 258px;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-right: 15px;
+    z-index: -1;
+}
+
+
+.main-TitleImg {
+    width: 121px;
+    height: 216px;
+    margin-top: 70px;
+}
+
+
+.main_card {
+    height: 206px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.main-CardImg {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.main-CardPlayImg {
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main_card-Artist {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #FAFF00;
+    font-size: 15px;
+}
+
+.mainOthers {
+    margin-top: 135px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.DivTikects {
+    width: 312px;
+    height: 293px;
+    margin-top: -35px;
+}
+
+.labelTicket {
+    font-size: 9px;
+    font-weight: 800
+}
+
+.pForm {
+    color: #FFFFFF;
+}
+
+.mapa {
+    border: #803DD5 7px solid;
+    border-radius: 20px;
+    width: 230px;
+    height: 131px;
+}
+
+
+.sponsor {
+    margin: 2px;
+}
+
+.imgSponsors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.sponsorImg {
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    height: 183px;
+    display: grid;
+
+}
+
+.footerP {
+    margin-left: 70%;
+    justify-self: end;
+    color: #803DD5;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 10px;
+}
+
+
+
+.iconFooter1 {
+    display: flex;
+    margin-right: 77%;
+}
+
+.footerP1 {
+    margin-left: 8px;
+    justify-self: end;
+    color: #803DD5;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 10px;
+}
+
+.iconFooter {
+    display: flex;
+    margin-right: 70%;
+}
+
+.textMenu {
+    display: none;
+}
+
+
+@media screen and (min-width:1000px) {
+
+    video {
+        background-size: cover;
+        height: 840PX;
+        min-width: 100%;
+
+        width: auto;
+        z-index: -1;
+    }
+
+
+    .textMenu {
+        display: block;
+    }
+
+    .navbar {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 77px;
+        background-color: #2E0C50A1;
+        z-index: 1;
+        padding-top: 11px;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+
+    .mainContainer {
+        margin-top: 150px;
+        margin-left: 20px;
+        justify-content: center;
+
+    }
+
+    .mainArticle {
+        width: 650px;
+        height: 320px;
+        font-size: 18px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
